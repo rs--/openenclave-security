@@ -1,8 +1,8 @@
 - description: OpenEnclave Security Queries
 - include:
     query path:
-      - openenclave/DoubleFree.ql
-      - openenclave/ECall-Args-IsOutsideEnclave.ql
-      - openenclave/ECall-Args-TOCTOU.ql
-      - openenclave/OCall-Args-InfoDisco.ql
-      - openenclave/OCall-Args-StructPadding-InfoDisco.ql
+      - openenclave/openenclave-security/src/static/codeql/queries/cpp/openenclave/DoubleFree.ql
+      - openenclave/openenclave-security/src/static/codeql/queries/cpp/openenclave/ECall-Args-IsOutsideEnclave.ql
+      - openenclave/openenclave-security/src/static/codeql/queries/cpp/openenclave/ECall-Args-TOCTOU.ql
+      - openenclave/openenclave-security/src/static/codeql/queries/cpp/openenclave/OCall-Args-InfoDisco.ql
+      - openenclave/openenclave-security/src/static/codeql/queries/cpp/openenclave/OCall-Args-StructPadding-InfoDisco.ql
